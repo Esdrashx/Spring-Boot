@@ -9,12 +9,12 @@ public class HelloController {
 
 	@GetMapping("/Atividade1")
 	public String hello() {
-		return "Habilidades e Mentalidades: Persistência, Proatividade e Atenção aos Detalhes";
+		return "Habilidades e Mentalidades: Persistência, Comunicação e Trabalho em Equipe";
 	}
 	
 	@GetMapping("/Atividade2")
 	public String hello2() {
-		return "Dar uma adiantada no conteúdo de Spring para já poder trabalhar no projeto.";
+		return "Foi dificil mais consegui.";
 	}
 	
 }
